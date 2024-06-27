@@ -180,7 +180,7 @@ document.querySelector("#footer").innerHTML = `
               >
                 LIÊN HỆ
               </h5>
-              <p>Website: https://xeng88.shop/</p>
+              <p>Website: https://88xeng.biz/</p>
             </div>
             <p class="">
               Địa chỉ: 24 Đường số 21, Phường 8, Gò Vấp, Thành phố Hồ Chí Minh,
