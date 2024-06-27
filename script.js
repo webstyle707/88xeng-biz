@@ -1,12 +1,12 @@
 var menu = document.querySelector(".menu");
 // var menu = document.querySelector('.menu');
 const hideNav = () => {
-  menu.style.transition = "all 0.8s ease";
+  menu.style.transition = "all 0.5s ease";
   menu.style.left = "-100%";
 };
 
 const showNav = () => {
-  menu.style.transition = "all 0.8s ease";
+  menu.style.transition = "all 0.5s ease";
   menu.style.left = "0%";
 };
 
