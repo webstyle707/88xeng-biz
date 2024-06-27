@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kèo Score Box - Cách bắt cược kèo Score Box cho tân thủ</title>
+    <meta name="keywords" content="88xeng,Nổ Hũ,Bầu Cua,88XENG,Đá Gà,Xóc Đĩa,Bắn Cá,Sòng Bài,Sicbo,Xổ Số,Baccarat" />
+    <meta name="description" content="88Xeng là nhà cái cá cược như thế nào, có những trò chơi gì để người chơi trải nghiệm? Anh em cùng tìm hiểu về nhà cái này ngay nhé." />
+    <link rel="icon" href="./Images/logo.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="space-y-10">
+      <header class="header top-0 sticky bg-white z-20">
+        <!-- big nav -->
+        <div
+          class="max-w-[1320px] mx-auto px-12 xl:px-14 2xl:px-2 2xl:pr-4 hidden md:flex items-center justify-between py-2"
+        >
+          <div>
+            <a href="./index.html">
+              <img class="w-[135.13px]" src="./Images/logo.png" alt="" />
+            </a>
+          </div>
+          <!-- btn1 -->
+          <div class="flex items-center space-x-3">
+            <a
+              href="https://www.hay88.one/?inviteCode=1036582"
+              class="rounded-full px-6 py-2 bg-[#FFBB00] border-[#FFBB00] border text-white transition-all duration-500 hover:bg-white hover:text-[#FFBB00]"
+            >
+              <button>Đăng ký</button>
+            </a>
+            <a
+              href="https://www.hay88.one/?inviteCode=1036582"
+              class="rounded-full px-6 py-2 bg-[#10003F] border-[#10003F] border text-white transition-all duration-500 hover:bg-white hover:text-[#10003F]"
+            >
+              <button>Đăng nhập</button>
+            </a>
+          </div>
+        </div>
+        <div class="bg-[#550093] text-white hidden md:block">
+          <div
+            class="max-w-[1320px] mx-auto px-9 xl:px-14 2xl:px-2 flex items-center space-x-2 *:px-5 *:py-[21px]"
+          >
+            <a
+              href="./index.html"
+              class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+              >88Xeng</a
+            >
+            <a
+              href="./huong-dan.html"
+              class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+            >
+              Hướng dẫn</a
+            >
+            <a
+              href="./casino.html"
+              class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+            >
+              Casino</a
+            >
+            <a
+              href="./slot.html"
+              class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+            >
+              Slot</a
+            >
+            <a
+              href="./khuyen-mai.html"
+              class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+            >
+              Khuyến Mãi</a
+            >
+            <a
+              href="./tin-tuc.html"
+              class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+            >
+              Tin tức</a
+            >
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="md:hidden">
+          <div class="flex justify-between items-center text-2xl py-2 px-4">
+            <div>
+              <a href="./index.html">
+                <img src="./Images/logo.png" />
+              </a>
+            </div>
+            <div>
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+          </div>
+
+          <!-- btn2 -->
+          <div class="flex items-center">
+            <a
+              href="https://www.hay88.one/?inviteCode=1036582"
+              class="w-full flex items-center justify-center px-6 py-2 bg-[#FFBB00] border-[#FFBB00] border text-white transition-all duration-500 hover:bg-white hover:text-[#FFBB00]"
+            >
+              <button class="text-center">Đăng ký</button>
+            </a>
+            <a
+              href="https://www.hay88.one/?inviteCode=1036582"
+              class="w-full flex items-center justify-center px-6 py-2 bg-[#10003F] border-[#10003F] border text-white transition-all duration-500 hover:bg-white hover:text-[#10003F]"
+            >
+              <button class="text-center">Đăng nhập</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- side nav -->
+
+        <div
+          class="menu fixed h-screen w-full top-0 -left-full z-30 bg-gray-800 bg-opacity-40 md:hidden"
+        >
+          <div class="w-[77%] h-full bg-gray-800 inset-0 bg-opacity-95 py-8">
+            <div class="flex justify-center">
+              <img src="./Images/logo.png" alt="" />
+            </div>
+            <!-- link side nav -->
+            <div
+              class="text-white flex flex-col *:border-b *:border-gray-500 *:py-3 *:pl-4 px-[1px]"
+            >
+              <a
+                href="./index.html"
+                class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+                >88Xeng</a
+              >
+              <a
+                href="./huong-dan.html"
+                class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+              >
+                Hướng dẫn</a
+              >
+              <a
+                href="./casino.html"
+                class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+              >
+                Casino</a
+              >
+              <a
+                href="./slot.html"
+                class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+              >
+                Slot</a
+              >
+              <a
+                href="./khuyen-mai.html"
+                class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+              >
+                Khuyến Mãi</a
+              >
+              <a
+                href="./tin-tuc.html"
+                class="hover:bg-[#10003E] transition-all duration-500 hover:text-white"
+              >
+                Tin tức</a
+              >
+            </div>
+          </div>
+          <div class="w-[23%]">
+            <ion-icon
+              onclick="hideNav()"
+              class="absolute top-5 text-gray-100 text-3xl right-5"
+              name="close-outline"
+            ></ion-icon>
+          </div>
+        </div>
+      </header>
+      <!-- container ===========-->
+      <div class="space-y-6">
+        <div class="max-w-[1320px] px-4 mx-auto">
+          <div class="w-full shadow-sm rounded py-3 border px-4">
+            <p>
+              <span><a href="./index.html"> Home </a></span> >>
+              <span><a href="./tin-tuc.html"> Tin tức </a></span>
+
+              >> Kèo Score Box – Cách bắt cược kèo Score Box cho tân thủ
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="max-w-[1320px] mx-auto px-6 xl:px-14 2xl:px-4 lg:flex space-y-6 lg:space-y-0 lg:space-x-6"
+        >
+          <div class="lg:w-[75%] border rounded py-5 space-y-8 shadow-sm">
+            <!-- 1 -->
+            <div class="space-y-7">
+              <div class="space-y-5">
+                <h1 class="h1 px-5">
+                  Kèo Score Box – Cách bắt cược kèo Score Box cho tân thủ
+                </h1>
+
+                <div
+                  class="flex px-5 border-y border-dashed items-center space-x-2 text-[13px] text-gray-500 py-2"
+                >
+                  <img class="rounded-full" src="./Images/user.png" alt="" />
+                  <p>devuser</p>
+                  <p class="h-5 border-l border-gray-400"></p>
+                  <p>Lần cập nhật cuối: 25/09/2023</p>
+                </div>
+              </div>
+
+              <div class="space-y-7 px-5">
+                <p>
+                  <span class="text-[#550093] font-bold hover:text-yellow-500 cursor-pointer transition-all duration-300"> Kèo Score Box  </span> được đánh giá là dạng kèo cá độ online khá dẫn
+                  dẫn. Dù vậy hiện nay vẫn chưa có nhiều tay chơi am hiểu cách
+                  bắt kèo ra sao cho hiệu quả. Để chơi kèo hiệu quả, bạn nên tìm
+                  hiểu và soi kèo kỹ. Theo dõi chia sẻ của <span class="text-[#550093] font-bold hover:text-yellow-500 cursor-pointer transition-all duration-300"> 88Xeng  </span> trong bài viết
+                  sau nếu anh em chưa hiểu quá rõ về loại kèo cá độ này.
+                </p>
+
+                <div class="space-y-5">
+                  <h3 class="h3 styleh3">Khái quát chung kèo Score Box</h3>
+                  <p>
+                    Với các cược thủ mới tham gia cá độ online chắc chắn sẽ thấy
+                    lạ lẫm với kèo cược Score Box. Tuy nhiên, đây là một loại
+                    kèo khá dễ chơi trong cá cược, cùng với <span class="text-[#550093] font-bold hover:text-yellow-500 cursor-pointer transition-all duration-300"> tỷ lệ cược
+                      Indonesia</span>. Anh em khi bắt kèo dựa theo tỉ số cách biệt đưa
+                    ra bởi nhà cái để đoán đội nào thắng cuộc.
+                  </p>
+                  <p>
+                    Đối với <span class=" font-bold">kèo Score Box</span>, bạn được chọn hai cửa là đội khách
+                    (Away team) và đội nhà (Home team). Bên cạnh đó, trong loại
+                    kèo này còn có hai chiều dự đoán như sau:
+                  </p>
+                </div>
+                <ul class="ul space-y-3">
+                  <li>
+                    <span style="font-weight: 400"
+                      >Kèm âm (-): Đoán kết quả trận đấu thua.&nbsp;</span
+                    >
+                  </li>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Kèo dương (+): Đoán kết quả trận đấu thắng.</span
+                    >
+                  </li>
+                </ul>
+
+                <div class="space-y-5">
+                  <p>
+                    Tỷ lệ trả thưởng trong kèo cược Score Box sẽ tùy theo từng
+                    tỷ lệ cược. Nhà cái căn cứ vào đây để tính tiền thưởng cho
+                    anh em khi kết thúc trận đấu.
+                  </p>
+                  <div class="space-y-2">
+                    <div class="element-center img-text-center">
+                      <!-- img1 -->
+                      <img src="./Images/keo-score-box/1.jpg" alt="" />
+                    </div>
+                    <p class="text-center">
+                      Khái quát chung kèo cá độ trực tuyến Score Box
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="space-y-7 px-5">
+              <div class="space-y-5">
+                <h3 class="h3 styleh3">Điểm qua một số loại kèo Score Box</h3>
+                <p>
+                  Có thể bạn chưa biết, kèo cược Score Box chia ra thành ba loại
+                  chính đó là Score Box Tài Xỉu, Score Box châu Âu và Score Box
+                  châu Á. Dưới đây là thông tin chi tiết về từng loại bạn cần
+                  biết:
+                </p>
+              </div>
+              <div class="space-y-5">
+                <h3 class="h2">Kèo cược Score Box châu Âu</h3>
+                <p>
+                  Loại kèo Score Box này dùng khá rộng rãi tại những giải đấu
+                  bóng đá châu Âu. Anh em thông qua kèo có thể xác định được tỉ
+                  lệ cược, số bàn thắng, tỉ lệ thắng, hòa và thua, số bàn thua…
+                  từng đội. Kèo cược Score Box châu Âu do các nhà cái uy tín
+                  cung cấp. Bởi vậy mà người chơi dựa theo kèo này đánh giá
+                  chính xác khả năng mỗi đội bóng.
+                </p>
+              </div>
+
+              <div class="space-y-5">
+                <h2 class="h2">Kèo cược Score Box châu Á</h2>
+                <p>
+                  Tên gọi khác của loại kèo này là Score box Handicap. Cược thủ
+                  dự đoán đội bóng nào giành chiến thắng. Tỉ lệ cược thua hay
+                  thắng của anh em sẽ dựa theo mức độ cách biệt cụ thể bàn thắng
+                  nhà cái đưa ra trong trận. Kèo cược Score Box châu Á chia
+                  thành hai cửa cược là đội khách (Away team) và đội nhà (Home
+                  team).
+                </p>
+
+                <div class="space-y-2 img-text-center">
+                  <!-- img2 -->
+                  <img src="./Images/keo-score-box/2.jpg" alt="" />
+                  <p>Kèo cược Score Box chia ra thành ba loại chính</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="space-y-7 px-5">
+              <div class="space-y-5">
+                <h3 class="h2">Kèo Score box Tài Xỉu</h3>
+                <p>
+                  Tên tiếng Anh của loại kèo này là Score Box Over/Under. Anh em
+                  dự đoán tổng bàn thắng đội khách và chủ nhà đã ghi trong trận
+                  đấu. Tỷ lệ thắng thua tính theo tổng bàn thắng nhà cái đưa ra
+                  ở từng trận.
+                </p>
+                <p>
+                  Loại kèo này chỉ tính kết quả khi thi đấu chính thức và bù
+                  giờ, không tính thời gian hiệp phụ. Anh em đặt cược không phải
+                  quan tâm nhiều tới kết quả hai đội thua thắng. Bạn được quyền
+                  chọn hai cửa chính gồm:
+                </p>
+                <ul class="ul space-y-3">
+                  <li>Hòa/Xỉu (Equal/Under).</li>
+                  <li>Hòa/Tài (Equal/Over).</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="space-y-7 px-5">
+              <div class="space-y-5">
+                <h3 class="h3 styleh3">
+                  Mẹo bắt kèo Score Box chính xác và hiệu quả
+                </h3>
+                <p>
+                  Để quá trình đặt cược kèo cá độ Score Box chuẩn, anh em cần có
+                  mẹo soi kèo cụ thể. Đó là:
+                </p>
+              </div>
+
+              <div class="space-y-5">
+                <ul class="ul space-y-3">
+                  <li>
+                    <span
+                      >Chọn tỷ lệ dựa vào thành tích hai đội: Cược thủ dành thời
+                      gian tìm hiểu, nghiên cứu, so sánh thành tích gần đây của
+                      các đội. Qua đó anh em dự đoán kết quả trận đấu, khả năng
+                      giành chiến thắng. Bạn cân nhắc bắt kèo cho đội mà có
+                      thành tích gần đây tốt hơn.&nbsp;</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Xem xét lực lượng chênh lệch giữa 2 đội. Anh em dành thời
+                      gian so sánh thực lực, phong độ, tương quan lực lượng hai
+                      đội. Qua đó tìm ra cách biệt về bàn thắng rồi xác định kết
+                      quả thua thắng.&nbsp;</span
+                    >
+                  </li>
+                  <li>
+                    <span>Không nên tất tay vì </span><b>kèo Score Box </b
+                    ><span
+                      >không dễ chơi hay dễ đoán. Anh em nên tích lũy dần dần
+                      kinh nghiệm, tránh cược hết số tiền mình có. Tốt nhất bạn
+                      nên cược từ mức thấp rồi tăng dần lên. Đây cũng là bí
+                      quyết bạn nên áp dụng khi chơi</span
+                    >
+                    <a
+                     
+                      ><b>kèo draw no bet</b></a
+                    ><span>.</span>
+                  </li>
+                  <li>
+                    <span
+                      >Cập nhật biến động kèo cược Score Box của nhà cái trên
+                      bảng tỉ lệ. Khi nhận thấy rằng bảng tỷ lệ kèo lớn nhưng tỷ
+                      lệ cược kèo Châu Á so với kèo châu Âu nhiều hơn. Lúc này
+                      bạn hãy ưu tiên xuống tiền cho đội chủ nhà.&nbsp;</span
+                    >
+                  </li>
+                </ul>
+                <div class="space-y-2 img-text-center">
+                  <!-- img3 -->
+                  <img src="./Images/keo-score-box/3.jpg" alt="" />
+                  <p>
+                    Mẹo bắt kèo Score Box chính xác và hiệu quả trong cá độ bóng
+                    đá
+                  </p>
+                </div>
+              </div>
+
+              <div class="space-y-5">
+                <h3 class="h3 styleh3">Câu hỏi về kèo cược cá độ Score Box</h3>
+                <p>
+                  Trong quá trình chơi kèo cược Score Box, tân thủ ít nhiều gặp
+                  phải một số thắc mắc. 88Xeng đã tổng hợp lại, ngay sau đây sẽ
+                  giúp bạn giải đáp những câu hỏi thường gặp nhất:
+                </p>
+              </div>
+
+              <div class="space-y-5">
+                <h3 class="h2">Có nên soi kèo Score Box tại 88Xeng không?</h3>
+                <p>
+                  88Xeng là kênh cung cấp khá nhiều thông tin thú vị, mới nhất
+                  về thể thao. Nội dung trên kênh luôn đảm bảo lấy từ nguồn uy
+                  tín, độ chính xác cao. Do đó, cược thủ nên tham khảo trước khi
+                  bắt kèo cược Score Box hay bất cứ loại kèo nào khác như kèo ảo
+                  là gì, kèo châu Á, kèo châu Âu, kèo tài xỉu,…
+                </p>
+              </div>
+              <div class="space-y-5">
+                <h2 class="h2">
+                  Tiêu chí chọn lựa đội bóng để bắt kèo cá độ Score Box
+                </h2>
+                <p>
+                  Đây là dạng kèo liên quan tới tỉ số nên cược thủ hãy chọn các
+                  đội bóng sở hữu thực lực mạnh hơn. Nếu thực lực hai đội không
+                  có nhiều cách biệt, bạn cần đưa ra một vài đánh giá. Ví dụ như
+                  lợi thế, phong độ, đối đầu…
+                </p>
+                <div class="space-y-2">
+                  <!-- img4 -->
+                  <img src="./Images/keo-score-box/4.jpg" alt="" />
+                  <p>
+                    Trong quá trình chơi kèo cược Score Box tân thủ ít nhiều gặp
+                    phải một số thắc mắc
+                  </p>
+                </div>
+              </div>
+              <div class="space-y-5">
+                <h3 class="h3 styleh3">
+                    Kết luận 
+                </h3>
+                <p>
+                    Kèo Score Box tuy chỉ là kèo phụ trong cá độ online, giống như kèo phạt góc nhưng đang được nhiều anh em quan tâm. Để bắt kèo sao cho chuẩn, bạn nên phân tích thế trận kỹ càng. Đồng thời chú ý biến động trên các bảng kèo cược. 
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-[25%] space-y-6 container-right"></div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer id="footer" class="bg-[#550093] text-white py-10"></footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>
